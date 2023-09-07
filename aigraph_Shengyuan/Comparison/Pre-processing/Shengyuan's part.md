@@ -1,0 +1,84 @@
+````markdown
+```python
+def clean_text_round1(abstract):  
+    """Remove HTML labels,  
+    and remove redundant words and line breaks"""    abstract = re.sub('<[^>]+>', '', str(abstract))  
+    abstract = re.sub('Abstract', '', str(abstract))  
+    abstract = re.sub('\n', '', str(abstract))  
+    return abstract.strip()  
+  
+  
+# Clean Speech Text  
+df["abstract"] = df["abstract"].apply(lambda x: clean_text_round1(x))  
+  
+  
+# Noun extract and lemmatize function  
+def nouns(abstract):  
+    """Given a string of text, tokenize the text  
+    and pull out only the nouns."""    # create mask to isolate words that are nouns  
+    is_noun = lambda pos: pos[:2] == 'NN'  
+    # store function to split string of words  
+    # into a list of words (tokens)    tokenized = word_tokenize(abstract)  
+    # store function to lemmatize each word  
+    wordnet_lemmatizer = WordNetLemmatizer()  
+    # use list comprehension to lemmatize all words  
+    # and create a list of all nouns    all_nouns = [wordnet_lemmatizer.lemmatize(word) for (word, pos) in pos_tag(tokenized) if is_noun(pos)]  
+  
+    # return string of joined list of nouns  
+    return ' '.join(all_nouns)  
+  
+  
+# Create dataframe of only nouns from speeches  
+data_nouns = pd.DataFrame(df.abstract.apply(nouns))  
+  
+stop_noun = ['ai', 'artificial', 'intelligence', 'research', 'technology', 'learning', 'machine', 'technique',  
+             'article', 'development', 'paper', 'application', 'method', 'deep', 'algorithm', 'problem', 'model',  
+             'approach', 'data', 'set', 'science', 'industry', 'ml', 'dl', 'field', 'use', 'study', 'analysis',  
+             'amp', 'gt', 'lt', 'us', 'nan', 'x0d', 'concept', 'task', 'issue', 'computer', 'knowledge', 'management',  
+             'information', 'author', 'solution', 'design', 'performance', 'result', 'search', 'function', 'process',  
+             'impact', 'challenge', 'review', 'agent', 'framework']  
+# Store TF-IDF Vectorizer  
+tv_noun = TfidfVectorizer(stop_words=stopwords.words('english') + stop_noun, ngram_range=(1, 2), max_df=.8, min_df=.01)  
+# Fit and Transform speech noun text to a TF-IDF Doc-Term Matrix  
+data_tv_noun = tv_noun.fit_transform(data_nouns.abstract)  
+# Create data-frame of Doc-Term Matrix with nouns as column names  
+data_dtm_noun = pd.DataFrame(data_tv_noun.toarray(), columns=tv_noun.get_feature_names_out())  
+# Set President's Names as Index  
+data_dtm_noun.index = df.index  
+# Visually inspect Document Term Matrix  
+data_dtm_noun.head()  
+  
+  
+def display_topics(model, feature_names, num_top_words, topic_names=None):  
+    for ix, topic in enumerate(model.components_):  
+        topic_words = [(feature_names[i], topic[i]) for i in topic.argsort()[:-num_top_words * 3 - 1:-1]]  
+  
+        # Check for duplicates and sub-strings in bigrams  
+        to_remove = set()  
+        for i, (word_i, _) in enumerate(topic_words):  
+            components_i = word_i.split()  
+  
+            # remove exact duplicates like "system system"  
+            if len(components_i) == 2 and components_i[0] == components_i[1]:  
+                to_remove.add(word_i)  
+                continue  
+  
+            for j, (word_j, _) in enumerate(topic_words):  
+                if i != j:  
+                    if len(components_i) == 1 and word_i in word_j:  
+                        # if word_i is a substring of word_j and word_i is not a bigram, then word_i should be removed  
+                        to_remove.add(word_i)  
+  
+        # Save only words that have not been marked for removal
+        topic_words = [(word, importance) for word, importance in topic_words if word not in to_remove]  
+  
+        # Finally, to ensure the number of words output, we filter again
+        top_words = sorted(topic_words, key=lambda x: x[1], reverse=True)[:num_top_words]  
+        words = [word for word, _ in top_words]  
+  
+        if not topic_names or not topic_names[ix]:  
+            print("\nTopic ", ix)  
+        else:  
+            print("\nTopic: '", topic_names[ix], "'")  
+        print(", ".join(words))
+````

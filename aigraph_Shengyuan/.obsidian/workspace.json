@@ -11,8 +11,12 @@
             "id": "477010150a7005f8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"Aishwarya's part\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md"
+              }
             }
           }
         ]
@@ -140,11 +148,21 @@
   },
   "active": "477010150a7005f8",
   "lastOpenFiles": [
+    "Comparison/Pre-processing/Aishwarya's part.md",
+    "Comparison/Pre-processing/Shengyuan's part.md",
+    "Comparison/Pre-processing/Shuyi's part.md",
+    "Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
+    "Comparison/A Comprehensive Comparison Study of Document Clustering for a Biomedical Digital Library MEDLINE.md",
+    "Tweet articles/A Very Gentle Introduction to Large Language Models without the Hype.md",
+    "Comparison/Pre-processing",
+    "Tweet articles/The Building Blocks of Generative AI.md",
+    "Tweet articles/Data-Juicer - A One-Stop Data Processing System for Large Language Models.md",
+    "Tweet articles/70 billion parameter LLaMA2 model training accelerated by 195% with best foundation model practice upgraded.md",
+    "Tweet articles/Using Large Language Models to Automate Category and Trend Analysis of Scientific Articles - An Application in Ophthalmology.md",
     "Tweet articles/What Is Topic Modeling - A Beginner's Guide.md",
     "Tweet articles/Which are the best clustering metrics.md",
     "Tweet articles/What is NLP.md",
     "Tweet articles/What is a LLM.md",
-    "Tweet articles/Using Large Language Models to Automate Category and Trend Analysis of Scientific Articles - An Application in Ophthalmology.md",
     "Tweet articles/TrafficSafetyGPT - Tuning a Pre-trained Large Language Model to a Domain-Specific Expert in Transportation Safety.md",
     "Tweet articles/Understanding Word N-grams and N-gram Probability in Natural Language Processing.md",
     "Tweet articles/Topic Modeling in Python - Latent Dirichlet Allocation (LDA).md",
@@ -157,17 +175,8 @@
     "Tweet articles/NMF — A visual explainer and Python Implementation.md",
     "Tweet articles/Meta’s Next AI Attack on OpenAI - Free Code-Generating Software.md",
     "Tweet articles/LLaMA - Open and Efficient Foundation Language Models.md",
-    "Tweet articles/Improving NMF clustering by leveraging contextual relationships among words.md",
-    "Tweet articles/Getting started with Text Preprocessing.md",
-    "Tweet articles/AI’s invisible hand on daily life.md",
-    "Tweet articles/5 Types of Classification Algorithms in Machine Learning.md",
-    "Tweet articles/A comprehensive survey of clustering algorithms.md",
-    "Tweet articles/10 Tips for Choosing the Optimal Number of Clusters.md",
-    "Tweet articles/10 Clustering Algorithms With Python.md",
     "Tweet articles",
-    "Review of Papers/Machine Learning in Systematic Reviews.md",
-    "Review of Papers/Clustering Algorithms A Comparative Approach.md",
-    "Review of Papers",
+    "Comparison",
     "Pasted image 20230904123805.png",
     "未命名.canvas"
   ]
