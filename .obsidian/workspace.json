@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "7c7ba25f66050baa",
+    "type": "split",
+    "children": [
+      {
+        "id": "e92831e404e92ab0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11f13b755edf476c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e5f6f6889d8fe10",
+    "type": "split",
+    "children": [
+      {
+        "id": "ceb75e2de3fa59d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1be296bded1840e4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4333f5de8bbe542f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4b99cfda929b180e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "161ea688fda5f204",
+    "type": "split",
+    "children": [
+      {
+        "id": "96ab7e7aa207a790",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18fc2e7d8ff91444",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "94b5152d8960aae5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e4088592aa3a9611",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "95cbb4a4ea3d68d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "11f13b755edf476c",
+  "lastOpenFiles": [
+    "aigraph_Shengyuan/Comparison/Pre-processing/Shengyuan's part.md",
+    "aigraph_Shengyuan/Comparison/Pre-processing/Shuyi's part.md",
+    "aigraph_Shengyuan/Comparison/Pre-processing/Yunzhong's part.md",
+    "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
+    "aigraph_Shengyuan/Comparison/Pre-processing/Aishwarya's part.md",
+    "aigraph_Shengyuan/Review of Papers/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md"
+  ]
+}
