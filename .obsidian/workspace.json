@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "11f13b755edf476c",
   "lastOpenFiles": [
+    "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
     "aigraph_Shengyuan/Comparison/Pre-processing/Shengyuan's part.md",
     "aigraph_Shengyuan/Comparison/Pre-processing/Shuyi's part.md",
     "aigraph_Shengyuan/Comparison/Pre-processing/Yunzhong's part.md",
-    "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
     "aigraph_Shengyuan/Comparison/Pre-processing/Aishwarya's part.md",
     "aigraph_Shengyuan/Review of Papers/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md"
   ]
