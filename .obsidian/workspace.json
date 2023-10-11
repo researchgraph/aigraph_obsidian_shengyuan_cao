@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "60e22c8952835925",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aigraph_Shengyuan/Comparison/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "aigraph_Shengyuan/Comparison/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "aigraph_Shengyuan/Comparison/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "aigraph_Shengyuan/Comparison/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md"
+              }
+            }
+          },
+          {
+            "id": "291305e71c244f5a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -146,13 +169,33 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "11f13b755edf476c",
+  "active": "60e22c8952835925",
   "lastOpenFiles": [
+    "aigraph_Shengyuan/Comparison/A Short Review on Different Clustering Techniques and Their Applications.md",
+    "aigraph_Shengyuan/Tweet articles/De-coded - Transformers explained in plain English.md",
+    "aigraph_Shengyuan/Tweet articles/The Design of Everyday (AI) Things.md",
+    "README.md",
     "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
     "aigraph_Shengyuan/Comparison/Pre-processing/Shengyuan's part.md",
-    "aigraph_Shengyuan/Comparison/Pre-processing/Shuyi's part.md",
     "aigraph_Shengyuan/Comparison/Pre-processing/Yunzhong's part.md",
-    "aigraph_Shengyuan/Comparison/Pre-processing/Aishwarya's part.md",
-    "aigraph_Shengyuan/Review of Papers/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md"
+    "aigraph_Shengyuan/Tweet articles/Is Generative AI Taking Over the World.md",
+    "aigraph_Shengyuan/Tweet articles/Challenges of Detecting AI-Generated Text.md",
+    "aigraph_Shengyuan/Tweet articles/Topic Modelling using ChatGPT API.md",
+    "aigraph_Shengyuan/Tweet articles/10 Exciting Projects on Large Language Models(LLM).md",
+    "aigraph_Shengyuan/Tweet articles/The Language Of AI - How Humans Communicate With LLMs.md",
+    "aigraph_Shengyuan/Tweet articles/What Is a Large Language Model (LLM) Meaning, Types, Working, and Examples.md",
+    "aigraph_Shengyuan/Tweet articles/A Taxonomy of Natural Language Processing.md",
+    "aigraph_Shengyuan/Tweet articles/The Impacts of Robotics, Artificial Intelligence On Business and Economics.md",
+    "aigraph_Shengyuan/Tweet articles/Leveraging Artificial Intelligence in Business - Implications, Applications and Methods.md",
+    "aigraph_Shengyuan/Tweet articles/Unsupervised Consensus Clustering.md",
+    "aigraph_Shengyuan/Tweet articles/Bag of Tricks for Efficient Text Classification.md",
+    "aigraph_Shengyuan/Tweet articles/10 Tips for Choosing the Optimal Number of Clusters.md",
+    "aigraph_Shengyuan/Tweet articles/What is NLP.md",
+    "aigraph_Shengyuan/Tweet articles/What Is Topic Modeling - A Beginner's Guide.md",
+    "aigraph_Shengyuan/Tweet articles/Which are the best clustering metrics.md",
+    "aigraph_Shengyuan/Tweet articles/AI’s invisible hand on daily life.md",
+    "aigraph_Shengyuan/Tweet articles/Getting started with Text Preprocessing.md",
+    "aigraph_Shengyuan/Tweet articles/Data-Juicer - A One-Stop Data Processing System for Large Language Models.md",
+    "aigraph_Shengyuan/Tweet articles/A Very Gentle Introduction to Large Language Models without the Hype.md"
   ]
 }
