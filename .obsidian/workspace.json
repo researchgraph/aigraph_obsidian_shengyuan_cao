@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60e22c8952835925",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "aigraph_Shengyuan/Comparison/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md",
+                "file": "aigraph_Shengyuan/Tweet articles/AI’s invisible hand on daily life.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 367.5
   },
   "right": {
     "id": "161ea688fda5f204",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aigraph_Shengyuan/Comparison/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md",
+                "file": "aigraph_Shengyuan/Tweet articles/AI’s invisible hand on daily life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aigraph_Shengyuan/Comparison/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md",
+                "file": "aigraph_Shengyuan/Tweet articles/AI’s invisible hand on daily life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aigraph_Shengyuan/Comparison/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md"
+                "file": "aigraph_Shengyuan/Tweet articles/AI’s invisible hand on daily life.md"
               }
             }
           },
@@ -169,33 +156,44 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "60e22c8952835925",
+  "active": "11f13b755edf476c",
   "lastOpenFiles": [
-    "aigraph_Shengyuan/Comparison/A Short Review on Different Clustering Techniques and Their Applications.md",
-    "aigraph_Shengyuan/Tweet articles/De-coded - Transformers explained in plain English.md",
-    "aigraph_Shengyuan/Tweet articles/The Design of Everyday (AI) Things.md",
-    "README.md",
-    "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
-    "aigraph_Shengyuan/Comparison/Pre-processing/Shengyuan's part.md",
-    "aigraph_Shengyuan/Comparison/Pre-processing/Yunzhong's part.md",
-    "aigraph_Shengyuan/Tweet articles/Is Generative AI Taking Over the World.md",
-    "aigraph_Shengyuan/Tweet articles/Challenges of Detecting AI-Generated Text.md",
-    "aigraph_Shengyuan/Tweet articles/Topic Modelling using ChatGPT API.md",
-    "aigraph_Shengyuan/Tweet articles/10 Exciting Projects on Large Language Models(LLM).md",
-    "aigraph_Shengyuan/Tweet articles/The Language Of AI - How Humans Communicate With LLMs.md",
-    "aigraph_Shengyuan/Tweet articles/What Is a Large Language Model (LLM) Meaning, Types, Working, and Examples.md",
-    "aigraph_Shengyuan/Tweet articles/A Taxonomy of Natural Language Processing.md",
-    "aigraph_Shengyuan/Tweet articles/The Impacts of Robotics, Artificial Intelligence On Business and Economics.md",
-    "aigraph_Shengyuan/Tweet articles/Leveraging Artificial Intelligence in Business - Implications, Applications and Methods.md",
-    "aigraph_Shengyuan/Tweet articles/Unsupervised Consensus Clustering.md",
-    "aigraph_Shengyuan/Tweet articles/Bag of Tricks for Efficient Text Classification.md",
+    "Pasted image 20231019173956.png",
+    "aigraph_Shengyuan/Tweet articles/5 Types of Classification Algorithms in Machine Learning.md",
+    "Pasted image 20231019173941.png",
+    "aigraph_Shengyuan/Tweet articles/Topic Modeling in Python - Latent Dirichlet Allocation (LDA).md",
+    "Pasted image 20231019173924.png",
     "aigraph_Shengyuan/Tweet articles/10 Tips for Choosing the Optimal Number of Clusters.md",
-    "aigraph_Shengyuan/Tweet articles/What is NLP.md",
-    "aigraph_Shengyuan/Tweet articles/What Is Topic Modeling - A Beginner's Guide.md",
-    "aigraph_Shengyuan/Tweet articles/Which are the best clustering metrics.md",
-    "aigraph_Shengyuan/Tweet articles/AI’s invisible hand on daily life.md",
-    "aigraph_Shengyuan/Tweet articles/Getting started with Text Preprocessing.md",
-    "aigraph_Shengyuan/Tweet articles/Data-Juicer - A One-Stop Data Processing System for Large Language Models.md",
-    "aigraph_Shengyuan/Tweet articles/A Very Gentle Introduction to Large Language Models without the Hype.md"
+    "Pasted image 20231019173911.png",
+    "aigraph_Shengyuan/Tweet articles/A Very Gentle Introduction to Large Language Models without the Hype.md",
+    "Pasted image 20231019173838.png",
+    "aigraph_Shengyuan/Tweet articles/The Building Blocks of Generative AI.md",
+    "Pasted image 20231019173819.png",
+    "aigraph_Shengyuan/Tweet articles/Unsupervised Consensus Clustering.md",
+    "Pasted image 20231019173807.png",
+    "aigraph_Shengyuan/Tweet articles/A Taxonomy of Natural Language Processing.md",
+    "Pasted image 20231019173755.png",
+    "aigraph_Shengyuan/Tweet articles/What is a LLM.md",
+    "Pasted image 20231019173739.png",
+    "aigraph_Shengyuan/Tweet articles/The Language Of AI - How Humans Communicate With LLMs.md",
+    "Pasted image 20231019173722.png",
+    "aigraph_Shengyuan/Tweet articles/De-coded - Transformers explained in plain English.md",
+    "Pasted image 20231019173658.png",
+    "aigraph_Shengyuan/Tweet articles/The Design of Everyday (AI) Things.md",
+    "aigraph_Shengyuan/Tweet articles/Best applications of large language models.md",
+    "aigraph_Shengyuan/Tweet articles/Challenges in Natural Language Processing.md",
+    "aigraph_Shengyuan/Tweet articles/Challenges of Detecting AI-Generated Text.md",
+    "aigraph_Shengyuan/Review of Papers/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md",
+    "README.md",
+    "未命名.canvas",
+    "aigraph_Shengyuan/Comparison/Machine Learning in Systematic Reviews.md",
+    "aigraph_Shengyuan/Comparison/Clustering Algorithms A Comparative Approach.md",
+    "aigraph_Shengyuan/Comparison/A Short Review on Different Clustering Techniques and Their Applications.md",
+    "aigraph_Shengyuan/Comparison/A Comprehensive Survey on Deep Clustering.md",
+    "aigraph_Shengyuan/Comparison/A Comprehensive Comparison Study of Document Clustering for a Biomedical Digital Library MEDLINE.md",
+    "aigraph_Shengyuan/Comparison/A Brief Survey of Text Mining- Classification, Clustering and Extraction Techniques.md",
+    "aigraph_Shengyuan/Comparison/Pre-processing/Yunzhong's part.md",
+    "aigraph_Shengyuan/Comparison/Pre-processing/A Comprehensive Comparison on current clustering methods.md",
+    "aigraph_Shengyuan/Comparison/Pre-processing/Shengyuan's part.md"
   ]
 }
